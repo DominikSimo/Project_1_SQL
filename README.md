@@ -21,7 +21,7 @@ Tabuľka pozostáva z troch premenných a to očakávana doba dožitia v roku 20
 
 
 ## Skript ***Weather.sql***
-Tabuľka pozostáva z údajov zameraných na počasie. Konkrétne to je priemerná denná teplota, maximálna rýchlosť vetra a počet hodín v ktorých pršalo v daný deň. Priemernú dennú teplotu som vypočítal pomocou priemeru z hodnôt teploty o 6:00,15:00 a 21:00. Pri premmenej počet hodín v ktorých pršalo v daný deň som vychádzal z predpokladu, že keď pršalo napríklad v 15:00 a ďalšie meranie bolo v 18:00 tak pršalo celú dobu medzi meraniami. Druhá možnosť ako to spraviť bolo, že by som počítal len konkrétnu hodinu, kedy bol nameraný dážď.
+Tabuľka pozostáva z údajov zameraných na počasie. Konkrétne to je priemerná denná teplota, maximálna rýchlosť vetra a počet hodín v ktorých pršalo v daný deň. Priemernú dennú teplotu som vypočítal pomocou priemeru z hodnôt teploty o 6:00,15:00 a 21:00. Pri premmenej počet hodín v ktorých pršalo v daný deň som vychádzal z predpokladu, že keď pršalo napríklad v 15:00 a ďalšie meranie bolo v 18:00 tak pršalo celú dobu medzi meraniami. Druhá možnosť ako to spraviť bolo, že by som počítal len konkrétnu hodinu, kedy bol nameraný dážď. Čo sa týka dat, tak ich nedostatok je spôsobený tým, že v pôvodnej tabuľke sú údaje o počasí naviazané na mestá a nie na krajiny s ktorými pracujeme v ostatných tabuľkách. Pri spárovaní pomocou miest došlo k redukcií dat z dôvodu rozdielnych názvoch miest v tabuľkách ktoré som spojoval. Z toho dôvodou sa podarilo spojiť len 23 krajín s premennými počasia. 
 Vplyv na COVID to môže mať ten, že v dni kde bola priemerná teplota nižšia, upršané dni a silný vietor tak sa ľudia viac zdržovali vo vnútorných priestoroch čo môže viesť k nárastu počtu pozitívnych.
 
 
